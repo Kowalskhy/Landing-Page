@@ -1,0 +1,164 @@
+/* Estilos gerais */
+body {
+    background: url(img/fundo.jpg) repeat-x;
+    font: 16px Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do cabeçalho */
+header {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#logo {
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #333;
+}
+
+nav a:hover {
+    color: #666;
+}
+
+/* Estilos do conteúdo principal */
+#principal {
+    overflow: hidden;
+}
+
+#conteudo {
+    float: left;
+    width: 70%;
+}
+
+#conteudo img {
+    display: block;
+    margin: 0 auto;
+}
+
+#conteudo h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#conteudo ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#conteudo ul li {
+    margin-bottom: 5px;
+}
+
+#conteudo ul li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#conteudo ul li a:hover {
+    text-decoration: underline;
+}
+
+#conteudo article {
+    margin-bottom: 20px;
+}
+
+/* Estilos da barra lateral */
+aside {
+    float: right;
+    width: 30%;
+}
+
+#produto img {
+    display: block;
+    margin: 0 auto;
+}
+
+#orçamento {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#orçamento h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#orçamento form {
+    margin-top: 10px;
+}
+
+#orçamento fieldset {
+    border: none;
+}
+
+#orçamento legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#orçamento select {
+    padding: 5px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+#orçamento .botao {
+    padding: 8px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#orçamento .botao:hover {
+    background-color: #0050a5;
+}
+
+/* Estilos do rodapé */
+#rodape {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+#rodape p {
+    margin: 5px 0;
+}
+
+#rodape a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
