@@ -2,16 +2,30 @@
 body {
     background: url(img/fundo.jpg) repeat-x;
     font: 16px Arial, Helvetica, sans-serif;
-    color: #333;
+    color: #080808;
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
+h2 {
+    color: #0ea500;
+}
 
+h3 {
+    color: #d61414;
+}
+
+h4 {
+    color: #e91010;
+}
+
+legend {
+    color: #0066cc;
+}
 #container {
     width: 1000px;
     margin: 0 auto;
-    background: #fff;
+    background: rgba(206, 186, 186, 0.171);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -34,11 +48,27 @@ nav {
 nav a {
     text-decoration: none;
     margin-left: 20px;
-    color: #333;
+    color: #5d7ba7f8;
 }
 
 nav a:hover {
-    color: #666;
+    color: #ffffff;
+}
+
+#logo h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#logo h1 a {
+    text-decoration: none;
+    color: #0066cc; /* Nova cor para o texto */
+}
+
+#logo h1 a:hover {
+    color: #0050a5; /* Cor alterada para o hover */
+    text-decoration: none; /* Remover sublinhado no hover */
 }
 
 /* Estilos do conteúdo principal */
@@ -97,7 +127,6 @@ aside {
 #orçamento {
     margin-top: 20px;
     padding: 10px;
-    background-color: #f0f0f0;
 }
 
 #orçamento h4 {
@@ -117,7 +146,7 @@ aside {
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 10px;
-    color: #333;
+    color:#0050a5
 }
 
 #orçamento select {
@@ -161,4 +190,15 @@ aside {
 
 #rodape a:hover {
     text-decoration: underline;
+}
+
+#descricao-nos {
+    clear: both;
+    text-align: justify;
+    font-size: 1.1em;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Fundo cinza mais claro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
